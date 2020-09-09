@@ -1,0 +1,1946 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+
+}
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top:-2px ;
+    background-color: white;
+}
+header ul li a{
+    position: relative;
+    color: gray;
+    margin-left: 20px; 
+    font-weight: 400;
+    font-size: 14px;
+}
+header ul li a I{
+    position: relative;
+    color: gray;
+    font-size: 23px;
+}
+.iconotoggle {
+    color: black;
+    font-size: 30px;
+}
+#aqui{
+    
+    /* Sombra */
+    -webkit-box-shadow: 0px 0px 9px 5px rgba(255,0,255,0.47);
+    -moz-box-shadow: 0px 0px 9px 5px rgba(255,0,255,0.47);
+    box-shadow: 0px 0px 9px 5px rgba(255,0,255,0.47);
+    /* Borde */
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}
+.carousel {
+    position: relative;
+    margin-top:70px;
+    
+}
+.carousel-inner {
+    max-height: 450px;
+}
+.img3 {
+    width: 100%;
+    top: 10px;
+}
+.box {
+    width: 100%;
+    background-color: dimgray;
+    text-align: center;
+}
+.box h3 {
+    position: relative;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    top: -3px;
+    color: white;
+    
+}
+.box h3 i {
+    position: relative;
+    font-size: 30px;
+    margin-left: 6px;
+    top: 3px;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.fondo_sobremi {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.25);
+}
+.t_sobremi {
+    position: relative;
+    padding: 20px;
+}
+.t_sobremi h1 {
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.box1_sobremi {
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+}
+.doc {
+    margin-top: 20px;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}
+.txt_sobremi {
+    position: relative;
+    text-align: center;
+}
+.txt_sobremi ul {
+    padding: 20px;
+    margin-left: -20px; 
+    text-align: left;
+}
+
+/* Tratamientos */
+
+.tratamientos {
+    width: 100%;
+    position: relative;
+    padding-top: 120px;
+    text-align: center;
+}
+.tratamientos h1 {
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -5px;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(82,82,82,1)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#525252', GradientType=1 );
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+}
+
+/* Botox */
+
+.botox {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.t_botox{
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+ 
+}
+.t_botox p{
+    position: relative;
+    margin-left: 360px;
+    font-size: 40px;
+    margin-top: -30px;
+}
+.t_botox h1{
+    position: relative;
+    font-size: 120px;
+    font-weight: 500;
+    margin-left: 30px;
+    top: 120px;
+    background: rgba(252,87,28,1);
+    background: -moz-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,87,28,1)), color-stop(31%, rgba(237,3,81,1)), color-stop(100%, rgba(237,3,81,1)));
+    background: -webkit-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -o-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -ms-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: linear-gradient(to right, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc571c', endColorstr='#ed0351', GradientType=1 );
+    -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent; 
+}
+.img_botox_z {
+    z-index: -2;
+}
+.img_botox2 img {
+    position: relative;
+    width: 900px;
+    left: -200px;
+    margin-top: -100px;
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    z-index: -2;
+}
+.txt_botox {
+    position: relative;
+     z-index: 10;
+    margin-left: 40px;
+}
+.txt_botox h3{
+    position: relative;
+    margin-top: 50px;
+    font-size: 26px;
+    max-width: 80%;
+   
+}
+.txt_botox h3, .btn_reservar {
+   
+     z-index: 10;
+}
+.txt_botox a{
+    position: relative;
+    
+}
+.btn_reservar {
+    width: 110px;
+    height: 36px;
+    margin-top: 20px;
+    text-align: center;
+    background: rgba(22,49,156,1);
+    background: -moz-linear-gradient(left, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(22,49,156,1)), color-stop(100%, rgba(82,82,82,1)));
+    background: -webkit-linear-gradient(left, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    background: -o-linear-gradient(left, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    background: -ms-linear-gradient(left, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    background: linear-gradient(to right, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16319c', endColorstr='#525252', GradientType=1 );
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    z-index: 2;
+    
+}
+.btn_reservar:hover {
+    background: rgba(82,82,82,1);
+    background: -moz-linear-gradient(left, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(82,82,82,1)), color-stop(100%, rgba(255,77,23,1)));
+    background: -webkit-linear-gradient(left, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    background: linear-gradient(to right, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525252', endColorstr='#ff4d17', GradientType=1 );
+    
+}
+.btn_reservar2 {
+    width: 110px;
+    height: 36px;
+    margin-top: 20px;
+    text-align: center;
+    background: rgba(82,82,82,1);
+    background: -moz-linear-gradient(left, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(82,82,82,1)), color-stop(100%, rgba(255,77,23,1)));
+    background: -webkit-linear-gradient(left, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    background: linear-gradient(to right, rgba(82,82,82,1) 0%, rgba(255,77,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525252', endColorstr='#ff4d17', GradientType=1 );
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    z-index: 2;
+    
+}
+.btn_reservar2:hover {
+    background: rgba(22,49,156,1);
+    background: -moz-linear-gradient(left, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(22,49,156,1)), color-stop(100%, rgba(82,82,82,1)));
+    background: -webkit-linear-gradient(left, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    background: -o-linear-gradient(left, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    background: -ms-linear-gradient(left, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    background: linear-gradient(to right, rgba(22,49,156,1) 0%, rgba(82,82,82,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16319c', endColorstr='#525252', GradientType=1 );
+    
+}
+.btn_reservar p {
+    position: relative;
+    top:6px;
+    color: white;
+}
+.btn_reservar2 p {
+    position: relative;
+    top:6px;
+    color: white;
+}
+
+/* Hilos */
+
+.hilos {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+.t_hilos{
+    position: relative;
+    text-align: center;
+    z-index: 4;
+    padding: 40px;
+}
+.t_hilos h1{
+    position: relative;
+    font-size: 100px;
+    font-weight: 500;
+    margin-left:520px;
+    
+    background: rgba(252,87,28,1);
+    background: -moz-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,87,28,1)), color-stop(31%, rgba(237,3,81,1)), color-stop(100%, rgba(237,3,81,1)));
+    background: -webkit-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -o-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -ms-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: linear-gradient(to right, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc571c', endColorstr='#ed0351', GradientType=1 );
+    -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent;
+     z-index: 4;
+}
+.t_hilos img {
+    position: relative;
+    margin-left: 460px;
+}
+.h_box1 {
+    margin-top: -240px;
+}
+.img_hilos2 img{
+    display: none;
+}
+.txt_hilos{
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -80px;
+    
+}
+.txt_hilos h3{
+    color: white;
+    font-size: 23px;
+}
+
+/* Mesoterapia */
+
+.mesoterapia {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.t_mesoterapia {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.t_mesoterapia h1 {
+    position: relative;
+    font-size: 120px;
+    font-weight: 500;
+    background: rgba(252,87,28,1);
+    background: -moz-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,87,28,1)), color-stop(31%, rgba(237,3,81,1)), color-stop(100%, rgba(237,3,81,1)));
+    background: -webkit-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -o-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -ms-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: linear-gradient(to right, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc571c', endColorstr='#ed0351', GradientType=1 );
+    -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent; 
+}
+.txt_mesoterapia {
+    padding: 50px; 
+}
+.txt_mesoterapia h3 {
+    width: 100%;
+    font-size: 23px;
+    margin-left: 0px;
+}
+.txt_mesoterapia ul{
+   
+}
+.img_mesoterapia {
+    padding: 20px;
+}
+.img_mesoterapia img {
+    position: relative;
+    max-width: 100%;
+    top: 60px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+/* Acido Hialuronico */
+.acidohialuronico {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.t_ah {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.t_ah h1 {
+    position: relative;
+    font-size: 120px;
+    font-weight: 500;
+    background: rgba(252,87,28,1);
+    background: -moz-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,87,28,1)), color-stop(31%, rgba(237,3,81,1)), color-stop(100%, rgba(237,3,81,1)));
+    background: -webkit-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -o-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: -ms-linear-gradient(left, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    background: linear-gradient(to right, rgba(252,87,28,1) 0%, rgba(237,3,81,1) 31%, rgba(237,3,81,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc571c', endColorstr='#ed0351', GradientType=1 );
+    -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent; 
+}
+.txt_ah {
+    position: relative;
+    margin-top: -140px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.txt_ah h3{
+    width: 70%;
+}
+.btn_ah {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    margin-top: -50px;
+}
+
+/* Cards */
+.card {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 10px 37px -5px rgba(0,0,0,0.86);
+    -moz-box-shadow: 0px 10px 37px -5px rgba(0,0,0,0.86);
+    box-shadow: 0px 10px 37px -5px rgba(0,0,0,0.86);
+    }
+.t_cards {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.t_cards h1 {
+    font-size: 80px;
+}
+.cards_container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Logos */
+
+.logo {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px 10px 80px 10px;
+}
+.txt_logos {
+    padding: 0px 0px 30px 0px;
+}
+.img_logo a{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.img_logo a:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    opacity: 1;
+    
+}
+
+
+/* Casos 2 */
+.img_casos2 {
+    text-align: center;
+   padding: 10px;
+}
+.img_casos2 img{
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Casos */
+.casos {
+    position: relative;
+    padding: 0px 0px 100px 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    
+   
+}
+.t_casos {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    
+ 
+}
+.t_casos h1 {
+    width: 100%;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -5px;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(82,82,82,1)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#525252', GradientType=1 );
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+}
+.t_casos  h3{
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+}
+
+/* Contactame */
+.contactame {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0px 0px 140px 0px;
+    background-image: url(/img/fcel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#f_contactame {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.25)), color-stop(100%, rgba(255,255,255,0.25)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(255,255,255,0.25) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+    
+   
+}
+.t_contactame{
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+}
+.t_contactame h1{
+    width: 100%;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -5px;
+    color: white;
+}
+.t_contactame h3{
+    font-size: 20px;
+    color: white;
+}
+.form_contactame{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding: 30px 0px 120px 0px;
+    
+}
+form {
+    width: 500px;
+    padding: 50px;
+    background: rgba(255,255,255,0.8);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.8)), color-stop(100%, rgba(255,255,255,0.8)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+    backdrop-filter: blur(10px);  
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px 40px 40px 40px;
+}
+
+/* Google Maps */
+.encuentrame {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.t_encuentrame h1{
+    width: 100%;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -5px;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(82,82,82,1)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#525252', GradientType=1 );
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+}
+.t_encuentrame h3{
+    padding: 30px;
+    font-size: 20px;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/* Footer */
+.m_pagos{
+    position: relative;
+    padding: 20px;
+    margin: 90px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.txt_pagos a:nth-child(1){
+    font-size: 20px;
+    color:gray;
+    opacity: 0.6;
+}
+
+#hover img {
+    margin-top: -20px;
+    opacity: 1;
+}
+#hover:hover{
+    color: gray;
+    opacity: 1;
+}
+.p_pago{
+    font-size: 60px;
+    color: gray;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.m_pagos i{
+    position: relative;
+    top: 8px;
+    margin: 10px;
+    font-size: 40px;
+}
+.m_pagos i:hover{
+    color: gray;
+}
+.footer{
+    padding: 20px;
+    font-size: 21px;
+    margin-top: 70px;
+    color: darkslategray;
+}
+#footer{
+    font-weight: 500;
+    color: black;
+}
+
+/* Mas tratamientos */
+
+.mastratamientos {
+    width: 100%;
+    height: auto;
+    padding: 90px 40px 90px 40px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mt_card {
+    width: 100%;
+    height: 500px;
+    background: rgba(30,235,250,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(30,235,250,1) 0%, rgba(120,160,179,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(30,235,250,1)), color-stop(100%, rgba(120,160,179,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(30,235,250,1) 0%, rgba(120,160,179,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(30,235,250,1) 0%, rgba(120,160,179,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(30,235,250,1) 0%, rgba(120,160,179,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(30,235,250,1) 0%, rgba(120,160,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1eebfa', endColorstr='#78a0b3', GradientType=1 );
+    -webkit-box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+    box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+    transform: scale(1);
+    transition: 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.mt_card:hover{
+     transform: scale(0.96);
+    -webkit-box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+}
+
+.img_pi {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/plasmaiq.png);
+    background-size: cover;
+    transition: 0.4s;
+    text-align: center;
+}
+.img_pi h1 {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    top: 320px;
+    font-size: 50px;
+    font-weight: 700;
+    background: rgba(255,0,43,1);
+    background: -moz-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,43,1)), color-stop(100%, rgba(140,7,124,1)));
+    background: -webkit-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: linear-gradient(to right, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff002b', endColorstr='#8c077c', GradientType=1 );
+    -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent; 
+    z-index: 0;
+}
+
+.boton{
+    width: 100%;
+}
+.img_pi div {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 34px;
+    z-index: 1;
+}
+
+.img_pi a p{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    margin-left: -0px;
+    z-index:10;
+    opacity: 0;
+    margin-top: -120px;
+}
+.img_pi p:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 10;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 1.4s; /* don't forget to set a duration! */
+}
+.img_pi a p b{
+    position: relative;
+    top: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 90px;
+}
+.img_pi a p b small{
+    position: relative;
+    top: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+.img_pi .fondonegro:hover {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.75)), color-stop(100%, rgba(0,0,0,0.75)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+    z-index: 12;
+}
+
+
+.img_bio {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/radi.png);
+    background-size: cover;
+    transition: 0.4s;
+    text-align: center;
+    overflow: hidden;
+}
+.img_bio h1 {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    top: 320px;
+    background: rgba(255,0,43,1);
+    background: -moz-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,43,1)), color-stop(100%, rgba(140,7,124,1)));
+    background: -webkit-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: linear-gradient(to right, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff002b', endColorstr='#8c077c', GradientType=1 );
+    -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent; 
+    font-size: 50px;
+    font-weight: 700;
+    z-index: 0;
+}
+
+.boton{
+    width: 100%;
+}
+.img_bio div {
+    position: relative;
+    text-align: center;
+     width: 100%;
+     height: 100%;
+     z-index: 1;
+}
+
+.img_bio a p{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    margin-left: -0px;
+    z-index:10;
+    opacity: 0;
+    margin-top: -88px;
+}
+.img_bio p:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 10;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 1.4s; /* don't forget to set a duration! */
+}
+.img_bio a p b{
+    position: relative;
+    top: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 90px;
+}
+.img_bio a p b small{
+    position: relative;
+    top: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+.img_bio .fondonegro:hover {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.75)), color-stop(100%, rgba(0,0,0,0.75)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+    z-index: 12;
+}
+
+
+
+.mt_card2 {
+    width: 100%;
+    height: 500px;
+    -webkit-box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+    box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+    transform: scale(1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.mt_card2:hover{
+     transform: scale(0.96);
+    -webkit-box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+}
+
+.img_tc {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    text-align: center;
+    overflow: hidden;
+}
+.img_tc img{
+    position: relative;
+    width: 100%;
+    top: -660px;
+}
+.img_tc h1 {
+    position: relative;
+    padding: 10px;
+    width: 54%;
+    top: 180px;
+    margin-left: -50px;
+    background: rgba(255,0,43,1);
+    background: -moz-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,43,1)), color-stop(100%, rgba(140,7,124,1)));
+    background: -webkit-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    background: linear-gradient(to right, rgba(255,0,43,1) 0%, rgba(140,7,124,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff002b', endColorstr='#8c077c', GradientType=1 );
+    -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent; 
+    font-size: 50px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.boton{
+    width: 100%;
+}
+.img_tc div {
+    position: relative;
+    text-align: center;
+    top:-60px;
+     width: 100%;
+     height: 100%;
+     z-index: 1;
+}
+
+.img_tc a p{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    margin-left: -0px;
+    z-index:10;
+    opacity: 0;
+    margin-top: -88px;
+}
+.img_tc p:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 10;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 1.4s; /* don't forget to set a duration! */
+}
+.img_tc a p b{
+    position: relative;
+    top: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 90px;
+}
+.img_tc a p b small{
+    position: relative;
+    top: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+.img_tc .fondonegro:hover {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.75)), color-stop(100%, rgba(0,0,0,0.75)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+    z-index: 12;
+}
+.mt_card3 {
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+    box-shadow: 0px 10px 23px -11px rgba(0,0,0,0.73);
+}
+
+.mt_card3:hover{
+     transform: scale(0.96);
+    -webkit-box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px -200px rgba(0,0,0,0);
+}
+.img_modal{
+    text-align: center;
+    padding: 20px;
+}
+.img_modal img {
+    width: 300px;
+}
+
+
+/* Media Queries para dispositivos moviles */
+
+@media all and (min-width:1200px){
+    /* Sobre mi */
+    .txt_sobremi ul {
+        margin-left: 0px; 
+    }
+    /* Hilos tensores */
+    .img_hilos2 img{
+        display: none;
+    }
+    .t_hilos h1{
+        line-height: 90px;
+    }
+    
+    /* Mesoterapia */
+
+    .txt_mesoterapia h3{
+        width: 100%;
+        font-size: 23px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .txt_mesoterapia ul{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    /* Acido Hialuronico */
+    .img_ah img {
+        max-width: 100%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    /* Sobre mi */
+    
+    .txt_sobremi ul {
+        margin-left: 0px;
+        
+    }
+    
+    /* Botox */
+    
+    .img_botox{
+        margin-left: 100px;
+    }
+    
+    /* Hilos tensores */
+    
+    .t_hilos img {
+        position: relative;
+        max-width: 50%;
+        margin-left: 390px;
+        
+    }
+    .t_hilos {
+        width: 100%;
+    }
+    .t_hilos h1{
+        margin-left: 390px;
+         line-height: 90px;
+    }
+    .img_hilos2 img{
+        display: none;
+    }
+    .h_box1 img {
+        max-width: 240%;
+        margin-top: 80px;
+        
+    }
+    .txt_hilos {
+        margin-top: 39px;
+    }
+    .txt_hilos h3{
+        font-size: 21px;
+    }
+    
+    /* Mesoterapia */
+
+    .txt_mesoterapia h3{
+        width: 100%;
+        font-size: 23px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .txt_mesoterapia ul{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    /* Acido Hialuronico */
+    .img_ah img {
+        max-width: 100%;
+    }
+    
+    /* Mas tratamientos */
+    .img_pi a{
+        position: relative;
+        top: 30px;
+    }
+    .img_pi a p b{
+        font-size: 70px;
+    }
+    .img_bio a{
+        position: relative;
+        top: 30px;
+    }
+    .img_bio a p b{
+        font-size: 70px;
+    }
+    .img_bio h1{
+        position: relative;
+        top: 328px;
+        font-size: 34px;
+    }
+    /* Casos 2 */
+    .img_casos2 img{
+        margin-left: 0px;
+    }
+    
+}
+
+@media all and (min-width: 768px) and (max-width:991px) {
+    /* Sobre mi */
+    
+    .t_sobremi{
+        max-width: 100%;
+    }
+    .t_sobremi h1 {
+        padding: 30px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .txt_sobremi ul {
+        padding: 40px;
+       text-align: center;
+    }
+    
+    /* Tratamientos */
+    
+    .tratamientos h1{
+        font-size: 80px;
+    }
+    
+    /* Botox */
+    
+    .t_botox h1 {
+        padding: 0px 0px 40px 0px;
+    }
+    .img_botox img {
+        margin-left: 0px;
+    }
+    .txt_botox h3{
+        margin-top: 0px;
+    }
+    .img_botox2 img {
+        position: relative;
+        left: 0px;
+        max-width: 100%;
+        margin-top: 0px;
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    /* Hilos tensores */
+    
+    .t_hilos img {
+        position: relative;
+        margin-left: 0px;
+        
+    }
+    .t_hilos h1{
+        margin-left: 0;
+    }
+    .h_box1 img {
+        max-width: 100%;
+        margin-top: 0px;
+    }
+    .h_box1 img {
+       display: none;   
+    }
+    .img_hilos2 img{
+        position: relative;
+        padding: 90px;
+        display: block;
+        max-width: 100%;
+        margin: 200px 0px 0px 0px; 
+        margin-top: 140px;
+        
+    }
+    .txt_hilos {
+        padding: 40px;
+        margin-top: -70px;
+        margin-left: 0;
+    }
+    .txt_hilos h3{
+        max-width: 100%;
+        color: black;
+        font-size: 20px;
+        font-size: 26px;
+    }
+    
+    /* Mesoterapia */
+    
+    .txt_mesoterapia ul{
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .txt_mesoterapia h3 {
+        font-size: 30px;
+    }
+    .img_mesoterapia{
+        text-align: center;
+       
+    }
+    
+    /* Hilos tensores */
+    .t_ah h1 {
+      
+    }
+    .img_ah img {
+        max-width: 100%;
+    }
+   
+    .txt_ah {
+        margin-top: -80px;
+    }
+    .txt_ah h3 {
+        width: 100%;
+    }
+    /* Mas tratamientos */
+    .img_tc h1{
+        position: relative;
+        top:300px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .mt_card3{
+        width: 100%;
+        
+    }
+    .mt_card3 img{
+        position: relative;
+        width: 118%;
+        top: -600px;
+    }
+    .img_tc img{
+        position: relative;
+        top: -560px;
+    }
+    .img_bio a p {
+        position: relative;
+        top: 0px;
+    }
+    /* Casos 2 */
+    .img_casos2 img{
+        margin-left: 0px;
+    }
+    
+}
+
+@media all and (min-width: 480px) and (max-width: 767px){
+    /* Sobre mi */
+    
+    .t_sobremi{
+        max-width: 100%;
+    }
+    .t_sobremi h1 {
+        padding: 30px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .doc {
+        max-width:300px;
+        max-height:300px;
+    }
+    .doc img {
+        max-width:300px;
+      
+    }
+    .txt_sobremi ul {
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: -20px;
+    }
+    
+    /* Tratamientos */
+    
+    .tratamientos h1{
+        font-size: 60px;
+    }
+    
+    /* Botox */
+    .t_botox {
+        text-align: center;
+    }
+    .t_botox h1 {
+        padding: 0px 0px 70px 0px;
+        margin-left: 0;
+        font-size: 80px;
+    }
+    .t_botox p {
+       font-size: 30px; 
+        margin-left: 230px;
+    }
+    .img_botox img {
+        margin-left: 0px;
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .txt_botox {
+         margin-left: 0px;
+    }
+    .txt_botox h3{
+        max-width: 100%;
+        margin: 0;
+        font-size: 25px;
+        padding: 15px;
+    }
+    .btn_reservar {
+      
+    }
+    .txt_botox h3{
+        margin-top: 0px;
+    }
+    .img_botox2 img {
+        position: relative;
+        max-width: 100%;
+        left: 0px;
+        margin-top:0px;
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    /* Hilos tensores */
+    
+    .t_hilos h1{
+        margin-left: 0;
+        line-height: 70px;
+        font-size: 80px;
+    }
+    .t_hilos img {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .h_box1 img {
+       display: none;
+        
+    }
+    .img_hilos2 img{
+        position: relative;
+        padding: 40px;
+        display: block;
+        max-width: 100%;
+        padding-top: 90px;
+        margin: 130px 0px 0px 0px;  
+    }
+    .txt_hilos {
+        padding: 40px;
+        margin-top: -70px;
+        margin-left: 0;
+    }
+    .txt_hilos h3{
+        max-width: 100%;
+        color: black;
+        margin-top: 50px;
+        font-size: 26px;
+    }
+    
+    /* Mesoterapia */
+    .t_mesoterapia {
+        width: 100%;
+    }
+    .t_mesoterapia h1{
+        width: 100%;
+        font-size: 70px;
+        padding: 0px 0px 40px 0px;
+    }
+    .img_mesoterapia{
+       text-align: center;
+    }
+    .txt_mesoterapia {
+        margin-top: -60px;
+    }
+    .txt_mesoterapia ul{
+        padding: 0;
+        margin-left: 0px;
+    }
+    .txt_mesoterapia h3 {
+        font-size: 26px;
+    }
+    
+    /* Acido Hialuronico */
+    .acidohialuronico {
+        margin-top: 120px;
+    }
+    .t_ah h1 {
+        font-size: 50px;
+    }
+    .img_ah img {
+        max-width: 100%;
+    }
+    .txt_ah {
+        padding: 0px;
+        margin-top: -40px;
+        text-align: left;
+    }
+    .txt_ah h3{
+        width: 100%;
+        padding: 15px;
+    }
+    .btn_ah {
+        justify-content: flex-start;
+        margin-top: -30px;
+        margin-left: -10px;
+    }
+    /* Cards */
+    .t_cards h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    
+    /* Logo */
+    .logo h4{
+        padding: 10px;
+    }
+    
+    /* Casos2 */
+    .img_casos2 img{
+        margin-left: 0px;
+    }
+    
+    /* Casos */
+    .acordion {
+        padding: 0px 0px 30px 0px;
+        max-height: 300px;
+    }
+    .acordion ul li div {
+        max-height: 300px;
+    }
+    .acordion ul li {
+        height: 300px;
+    }
+    .acordion ul:hover li { 
+        width: 1%; 
+    }
+    .acordion ul:hover li:hover { 
+        width: 11%; 
+    }
+    .t_casos h1 {
+        padding: 10px;
+        font-size: 60px;
+        letter-spacing: -2px;
+    }
+    /* Contactame */
+    .t_contactame h1 {
+        padding: 10px;
+        font-size: 60px;
+        letter-spacing: -2px;
+    }
+    /* google maps */
+    .t_encuentrame h1 {
+        padding: 10px;
+        font-size: 60px;
+        letter-spacing: -2px;
+    }
+    /* Mas tratamientos */
+    .img_pi a p b{
+        position: relative;
+        font-size:60px;
+        top: 90px;
+    }
+    .img_pi a p b small{
+        position: relative;
+        top: 30px;
+    }
+    .img_bio div{
+        position: relative;
+        width: 100%;
+        top: 24px;
+       
+    }
+    .img_bio a p{
+        position: relative;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .img_bio h1{ 
+        position: relative;
+        top: 360px;
+        font-size: 30px;
+    }
+    .img_bio a p b{
+        position: relative;
+        font-size:60px;
+        top: 90px;
+    }
+    .img_bio a p b small{
+        position: relative;
+        top: 30px;
+    }
+    .img_tc {
+        position: relative;
+        width: 100%;
+        top: 0px;
+        margin: 0px;
+        height: 120%;
+        
+    }
+    .img_tc a p{
+        position: relative;
+        width: 100%;
+       
+    }
+    .img_tc h1{ 
+        position: relative;
+        top: 400px;
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .img_tc a p b{
+        position: relative;
+        font-size:60px;
+        top: 230px;
+    }
+    .img_tc a p b small{
+        position: relative;
+        top: 40px;
+    }
+    .img_tc img {
+        position: relative;
+        text-align: center;
+        width: 960px;
+        left: -300px;
+        top: -720px;
+       
+    }
+    .mt_card3 {
+        height: 600px;
+    }
+    
+    
+}
+
+@media all and (max-width: 479px) {
+    /* Sobre mi */
+        .t_sobremi h1 {
+        padding: 0px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .doc {
+        max-width:200px;
+        max-height:200px;
+    }
+    .doc img {
+        max-width:200px;
+    }
+    .txt_sobremi ul {
+        padding: 6;
+        margin-left: 0px;
+        text-align:left;
+        margin-top: -20px;
+    }
+    .frase {
+        padding: 20px;
+    }
+    .txt_frase{
+        width: 100%;
+    }
+    .txt_frase h1{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        
+    }
+    /* Tratamientos */
+    
+    .tratamientos h1{
+        font-size: 40px;
+    }
+    .tratamientos h4 {
+        width: 100%;
+        padding: 4px;
+        font-size: 25px;    
+    }
+    
+    /* Botox */
+    .botox{
+        margin: 0;
+        padding: 0;
+    }
+    .t_botox h1{
+        margin-left: 0;
+        line-height: 70px;
+        font-size: 80px;
+        margin-left: 0px;
+        padding: 0px 0px 50px 0px;
+    }
+    .img_botox img {
+        position: relative;
+        left: 80px;
+        max-width: 100%;
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .txt_botox {
+         margin-left: 0px;
+    }
+    .txt_botox h3{
+        max-width: 100%;
+        margin: 0;
+        font-size: 25px;
+    }
+    .botox .btn_reservar2 {
+        margin-left: 0;
+    }
+    .txt_botox h3{
+        margin-top: 0px;
+    }
+    .img_botox2 img {
+        position: relative;
+        max-width: 100%;
+        left: 0px;
+        margin-top:0px;
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    /* Hilos tensores */
+    .t_hilos {
+        width: 100%;
+        padding: 5px;
+    }
+    .t_hilos h1{
+        margin-left: 0;
+        line-height: 40px;
+        font-size: 50px;
+    }
+    .t_hilos img {
+        position: relative;
+        margin-left: 0px;
+    }
+    .h_box1 img {
+       display: none;
+        
+    }
+    .img_hilos2 img{
+        position: relative;
+        padding: 40px;
+        padding-top: 50px;
+        display: block;
+        max-width: 100%;
+        margin: 200px 0px 0px 0px;  
+    }
+    .txt_hilos {
+        padding: 30px;
+        margin-top: -70px;
+        margin-left: 0;
+    }
+    .txt_hilos h3{
+        max-width: 100%;
+        color: black;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    
+    /* Mesoterapia */
+    .t_mesoterapia h1{
+        font-size: 40px;
+        padding: 40px 0px 50px 0px;
+    }
+    .img_mesoterapia{
+        position: relative;
+        margin: 0px;
+       top: 0px;
+       text-align: center;
+    }
+    .img_mesoterapia img{
+        position: relative;
+        top: 0px;
+        
+    }
+    .txt_mesoterapia {
+        padding: 20px;
+        margin-top: -60px;
+    }
+    .txt_mesoterapia ul{
+        padding: 0;
+        margin-left: 0px;
+    }
+    .txt_mesoterapia h3 {
+        font-size: 26px;
+    }
+    /* Acido Hialuronico */
+    .acidohialuronico {
+        
+    }
+    .t_ah{
+        padding: 0px 0px 40px 0px;
+        width: 100%;
+    }
+    .t_ah h1{
+        
+        font-size: 45px;
+    }
+    .img_ah img {
+        width: 130%;
+        margin-left: -35px;
+    }
+    .txt_ah {
+        padding: 0px;
+        margin-top: -10px;
+        text-align: left;
+        
+    }
+    .txt_ah h3 {
+        width: 100%;
+    }
+    .btn_ah {
+        justify-content: flex-start;
+        margin-top: -30px;
+        margin-left: -30px;
+    }
+    /* Cards */
+    .t_cards h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .card {
+        width: 0rem; 
+    }
+    
+    /* Casos2 */
+    .img_casos2 img{
+        margin-left: 0px;
+    }
+    /* Casos */
+    .t_casos h1 {
+        font-size: 70px;
+        letter-spacing: -2px;
+    }
+    .acordion {
+        padding: 0px 0px 30px 0px;
+        max-height: 300px;
+    }
+    .acordion ul li div {
+        max-height: 238px;
+    }
+    .acordion ul li {
+        height: 200px;
+    }
+    .acordion ul:hover li { 
+        width: 1%; 
+    }
+    .acordion ul:hover li:hover { 
+        width: 11%; 
+    }
+    .acordion ul li:nth-child(1) {
+        display: none;
+    }
+    .acordion ul li:nth-child(3) {
+        display: none;
+    }
+    .acordion ul li:nth-child(8) {
+        display: none;
+    }
+    
+    /* Contactame */
+    .t_contactame h1 {
+        font-size: 35px;
+        letter-spacing: -2px;
+    }
+    /* google maps */
+    .t_encuentrame h1 {
+        font-size: 35px;
+        letter-spacing: -2px;
+    }
+    /* Pagos */
+    .p_pago{
+        color: darkslategray;
+        font-size: 30px;
+    }
+    .txt_pagos a:nth-child(1){
+        opacity: 1;
+    }
+    /* Mas tratamientos */
+    .mt_card, .mt_card2, .mt_card3  {
+        width: 124%;
+        margin-left: -30px;
+    }
+    .img_pi a p b{
+        position: relative;
+        font-size:40px;
+        top: 140px;
+    }
+    .img_pi a p b small{
+        position: relative;
+        top: 20px;
+    }
+    .img_pi .fondonegro:hover{
+        position: relative;
+        top:30px;
+    }
+    .img_bio .fondonegro:hover{
+        position: relative;
+        top:24px;
+    }
+    .img_bio div{
+        position: relative;
+        width: 100%;
+        top: 24px;
+       
+    }
+    .img_bio a p{
+        position: relative;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .img_bio h1{ 
+        position: relative;
+        top: 360px;
+        font-size: 24px;
+    }
+    .img_bio a p b{
+        position: relative;
+        font-size:40px;
+        top: 140px;
+    }
+    .img_bio a p b small{
+        position: relative;
+        top: 20px;
+    }
+    .img_tc {
+        position: relative;
+        width: 100%;
+        top: 0px;
+        margin: 0px;
+        height: 120%;
+        
+    }
+    .img_tc a p{
+        position: relative;
+        width: 100%;
+       
+    }
+    .img_tc h1{ 
+        position: relative;
+        top: 400px;
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .img_tc a p b{
+        position: relative;
+        font-size:60px;
+        top: 230px;
+    }
+    .img_tc a p b small{
+        position: relative;
+        top: 40px;
+    }
+    .img_tc img {
+        position: relative;
+        text-align: center;
+        width: 960px;
+        left: -300px;
+        top: -720px;
+       
+    }
+    .mt_card3 {
+        height: 600px;
+    }
+    
+}
